@@ -19,7 +19,7 @@
     "@istanbuljs/nyc-config-typescript": "1.0.2",
     "@jest/globals": "27.4.2",
     "@jest/types": "27.4.2",
-    "@types/chai": "4.2.22",
+    "@types/chai": "4.3.0",
     "@types/chai-spies": "1.0.3",
     "@types/enzyme": "3.10.10",
     "@types/jest": "27.0.3",
