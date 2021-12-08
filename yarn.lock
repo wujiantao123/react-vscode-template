@@ -59,6 +59,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ant-design/pro-field@npm:1.28.4":
+  version: 1.28.4
+  resolution: "@ant-design/pro-field@npm:1.28.4::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-field%2Fdownload%2F%40ant-design%2Fpro-field-1.28.4.tgz"
+  dependencies:
+    "@ant-design/icons": ^4.2.1
+    "@ant-design/pro-provider": 1.5.2
+    "@ant-design/pro-utils": 1.28.7
+    "@babel/runtime": ^7.16.3
+    classnames: ^2.2.6
+    lodash.tonumber: ^4.0.3
+    moment: ^2.27.0
+    omit.js: ^2.0.2
+    rc-util: ^5.4.0
+    react-color: 2.19.3
+    swr: 1.1.0
+  peerDependencies:
+    antd: 4.x
+    react: ">=16.9.0"
+  checksum: b57850504cae275869be1cf88d8f297cbb8f122db2f8e552d2ddc136d1411aed33528fc8e34280e74efa0467f510d42cf4365878a56060f18ed8bd72464dc457
+  languageName: node
+  linkType: hard
+
 "@ant-design/pro-form@npm:1.49.6":
   version: 1.49.6
   resolution: "@ant-design/pro-form@npm:1.49.6::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-form%2Fdownload%2F%40ant-design%2Fpro-form-1.49.6.tgz"
@@ -79,6 +101,30 @@ __metadata:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
   checksum: 9aa5ef9ee19a3838bffc70e3d50f89b907c8e3eed97853d51992f6f451e9934342ae6023ee488288b05203021956cdea5cd1e7ce50bd4f01ab69ed5e0d96db2c
+  languageName: node
+  linkType: hard
+
+"@ant-design/pro-form@npm:1.49.8":
+  version: 1.49.8
+  resolution: "@ant-design/pro-form@npm:1.49.8::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-form%2Fdownload%2F%40ant-design%2Fpro-form-1.49.8.tgz"
+  dependencies:
+    "@ant-design/icons": ^4.2.1
+    "@ant-design/pro-field": 1.28.4
+    "@ant-design/pro-provider": 1.5.2
+    "@ant-design/pro-utils": 1.28.7
+    "@babel/runtime": ^7.16.3
+    "@umijs/use-params": ^1.0.9
+    classnames: ^2.2.6
+    omit.js: ^2.0.2
+    rc-resize-observer: ^0.2.3
+    rc-util: ^5.0.6
+    use-json-comparison: ^1.0.5
+    use-media-antd-query: ^1.0.6
+  peerDependencies:
+    antd: 4.x
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: 2246cd7138e5cc5e58569262eb0e01fad42d6ccd4801efef2a3b376fa47ee05e40526f1bd2971baf8f0143e244083ecc1a5adcc4a1333e2cf00d41db558fb84d
   languageName: node
   linkType: hard
 
@@ -124,15 +170,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ant-design/pro-table@npm:2.59.2":
-  version: 2.59.2
-  resolution: "@ant-design/pro-table@npm:2.59.2::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-table%2Fdownload%2F%40ant-design%2Fpro-table-2.59.2.tgz"
+"@ant-design/pro-provider@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@ant-design/pro-provider@npm:1.5.2::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-provider%2Fdownload%2F%40ant-design%2Fpro-provider-1.5.2.tgz"
+  dependencies:
+    "@babel/runtime": ^7.16.3
+    rc-util: ^5.0.1
+    swr: 1.1.0
+  peerDependencies:
+    antd: 4.x
+    react: ">=16.9.0"
+  checksum: 439c81aa46a8d3324823abaf1c00349ebc429d05aa7cf739fe7860d3f48c94522fb47d351748095522b78d0be1b0ad277b8087c297b286b3b4e163ca119050d8
+  languageName: node
+  linkType: hard
+
+"@ant-design/pro-table@npm:2.59.4":
+  version: 2.59.4
+  resolution: "@ant-design/pro-table@npm:2.59.4::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-table%2Fdownload%2F%40ant-design%2Fpro-table-2.59.4.tgz"
   dependencies:
     "@ant-design/icons": ^4.1.0
-    "@ant-design/pro-field": 1.28.2
-    "@ant-design/pro-form": 1.49.6
-    "@ant-design/pro-provider": 1.5.0
-    "@ant-design/pro-utils": 1.28.5
+    "@ant-design/pro-field": 1.28.4
+    "@ant-design/pro-form": 1.49.8
+    "@ant-design/pro-provider": 1.5.2
+    "@ant-design/pro-utils": 1.28.7
     "@babel/runtime": ^7.16.3
     classnames: ^2.2.6
     moment: ^2.24.0
@@ -147,7 +207,7 @@ __metadata:
     rc-field-form: ^1.x
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
-  checksum: 3778e251a9e7a40143395330086c7e0fa060096b9a1951d9ae2f5f3187da48385cf86183997cfa05f99900d39c9b8de7eeabf4836b928c826cbad674254c63c2
+  checksum: 347aa6d381ae30f667eb47cbbd2bb60cb681e4e28ca223336e6a65c46526ca965d3d989f99a075451041c0ce2705de0d05f04e515db7c6a51f1cb0e73b5dea09
   languageName: node
   linkType: hard
 
@@ -168,6 +228,26 @@ __metadata:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
   checksum: 815ed979b64978641c20b99aaef34c15e74485257c38e3b8d9329f695a0133917b4848011d6114fc4e948f5e5e90489d0d3bc9de67ca091cee15c8dc7d398fa5
+  languageName: node
+  linkType: hard
+
+"@ant-design/pro-utils@npm:1.28.7":
+  version: 1.28.7
+  resolution: "@ant-design/pro-utils@npm:1.28.7::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40ant-design%2Fpro-utils%2Fdownload%2F%40ant-design%2Fpro-utils-1.28.7.tgz"
+  dependencies:
+    "@ant-design/icons": ^4.3.0
+    "@ant-design/pro-provider": 1.5.2
+    "@babel/runtime": ^7.16.3
+    classnames: ^2.2.6
+    moment: ^2.27.0
+    rc-util: ^5.0.6
+    react-sortable-hoc: ^2.0.0
+    swr: 1.1.0
+  peerDependencies:
+    antd: 4.x
+    react: ">=16.9.0"
+    react-dom: ">=16.9.0"
+  checksum: 216a11884c5a3b9421c2041bc7fbb0e38693c7f405d2eec1964cdbf0d138484dc4b837547357db7027c89296fcb27041cedd46c514ff12be7cdbb6d043a0cf5c
   languageName: node
   linkType: hard
 
@@ -8618,7 +8698,7 @@ __metadata:
     "@ant-design/icons": 4.7.0
     "@ant-design/pro-form": 1.49.6
     "@ant-design/pro-layout": 6.31.3
-    "@ant-design/pro-table": 2.59.2
+    "@ant-design/pro-table": 2.59.4
     "@fullhuman/postcss-purgecss": 4.1.3
     "@istanbuljs/nyc-config-typescript": 1.0.2
     "@jest/globals": 27.4.2
@@ -9482,6 +9562,15 @@ resolve@^2.0.0-next.3:
     has-flag: ^4.0.0
     supports-color: ^7.0.0
   checksum: aef04fb41f4a67f1bc128f7c3e88a81b6cf2794c800fccf137006efe5bafde281da3e42e72bf9206c2fcf42e6438f37e3a820a389214d0a88613ca1f2d36076a
+  languageName: node
+  linkType: hard
+
+"swr@npm:1.1.0":
+  version: 1.1.0
+  resolution: "swr@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fswr%2Fdownload%2Fswr-1.1.0.tgz"
+  peerDependencies:
+    react: ^16.11.0 || ^17.0.0 || ^18.0.0
+  checksum: ee878b7a5dce6a8c866e9e56125168e732678e27be9211c5d32505e940c6b67ecf841c81badfba72eff82f126b18bcdadbb24211dcebeb440bd2bc67df37e29e
   languageName: node
   linkType: hard
 
